@@ -26,9 +26,9 @@ const Statistics = () => {
       ],
       upcomingActivities: [
         "Meeting with the VC - 10 AM - Due soon",
-        "Meeting with the J... - 11 AM - Upcoming",
-        "Class B middle sess... - 1 PM - Upcoming",
-        "Send Mr. Ayo class ... - 2 PM - Upcoming",
+        "Meeting with the John - 11 AM - Upcoming",
+        "Class B middle session - 1 PM - Upcoming",
+        "Send Mr. Ayo class  - 2 PM - Upcoming",
       ],
     });
   }, []);
