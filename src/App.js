@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import AuthPage from "./AuthPage";
 import LandingPage from "./LandingPage";
 import Statistics from "./Statistics";
+import CreateQuiz from "./createQuiz";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/auth" element={<AuthPage />} />
         <Route path="/statistics" element={<Statistics />} />
+        <Route path="/create-quiz" element={<CreateQuiz />} />
       </Routes>
     </Router>
   );
